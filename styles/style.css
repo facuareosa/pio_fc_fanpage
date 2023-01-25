@@ -1,0 +1,16 @@
+.personal__bgcolor-1{
+    background-color: #192072;
+}
+/*.main__banner{
+    width: 100%;
+    height: 30rem;
+    position: fixed;
+    background-image: url(../assets/benalmadena\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+}*/
+.banner__img{
+    height: 30rem;
+    object-fit: cover;
+    object-position: 0 40%;
+}
