@@ -1,7 +1,9 @@
 .personal__bgcolor-1{
     background-color: #192072;
 }
-
+.personal__bgcolor-2{
+    background-color: #EBEBEB;
+}
 .banner__img{
     height: 30rem;
     object-fit: cover;
@@ -11,15 +13,8 @@
 .main__section{
     height:30rem;
 }
-.descripcion__row{
-    height: 100% ;
-}
-.carousel__item-size{
-    height: 70%;
-}
+
 .carousel__text{
     width: 75%;
 }
-.personal__bgcolor-2{
-    background-color: #EBEBEB;
-}
+
