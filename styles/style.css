@@ -4,17 +4,23 @@
 .personal__bgcolor-2{
     background-color: #EBEBEB;
 }
+.personal__textcolor-1{
+    color: white;
+}
 .banner__img{
     height: 30rem;
     object-fit: cover;
     object-position: 0 40%;
 }
 
-.main__section{
-    height:30rem;
+.carousel__inner-comentarios{
+    height: 20rem;
+}
+.carousel__texto{
+    width: 75%;
 }
 
-.carousel__text{
-    width: 75%;
+.carousel__inner-habitaciones{
+    height: 20rem;
 }
 
