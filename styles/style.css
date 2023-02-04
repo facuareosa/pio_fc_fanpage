@@ -4,8 +4,49 @@
 .personal__bgcolor-2{
     background-color: #EBEBEB;
 }
+.personal__bgcolor-3{
+    background-color: #111657;
+}
 .personal__textcolor-1{
     color: white;
+}
+
+.btn__style-1{
+    padding: .5rem;
+    border-radius: 6px;
+    border-color: #192072;
+    color: #192072;
+}
+.btn__style-1:hover{
+    padding: .5rem;
+    transition: 200ms;
+    border-radius: 6px;
+    background-color: #192072;
+    border-color: whitesmoke;
+    color: whitesmoke;
+    box-shadow: 0px 0px 20px 0px #192072;
+}
+.btn__style-2{
+    padding: .5rem;
+    
+    border-radius: 6px;
+    background-color: #192072;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+.btn__style-2:hover{
+    padding: .5rem;
+    transition: 200ms;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    border-color: #192072;
+    color: #192072;
+    box-shadow: 0px 0px 20px 0px whitesmoke;
+}
+
+.btn__link{
+    text-decoration: none;
+    color:inherit;
 }
 .banner__img{
     height: 30rem;

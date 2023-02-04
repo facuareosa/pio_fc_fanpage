@@ -11,8 +11,9 @@
 </head>
 
 <body>
+  <!-------- HEADER -------->
   <header>
-    <div class="fixed-top container-fluid personal__bgcolor-1 d-flex">
+    <div class="fixed-top container-fluid d-flex border-bottom personal__bgcolor-3">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark">
           <div class="container-fluid">
@@ -54,6 +55,7 @@
       </div>
     </div>
   </header>
+  <!-------- MAIN -------->
   <main>
     <div class="main__banner banner">
       <img src="./assets/benalmadena (2).jpg" alt="puerto marina benalmadena" class="d-block w-100 banner__img">
@@ -144,10 +146,12 @@
             </div>
           </div>
 
-          <!-------- LINK BOOKING -------->
+          <!-------- LINK BOOKING COMENTARIOS-------->
 
           <div class="d-flex justify-content-center align-items-end">
-            <a class="btn btn-primary" href="#" role="button">Más comentarios</a>
+            <button class="btn__style-1">
+              <a class="btn__link" href="https://www.booking.com/hotel/es/the-boathouse.es.html?aid=397594&label=gog235jc-1DCAEoggI46AdIClgDaEaIAQGYAQq4ARfIAQzYAQPoAQH4AQKIAgGoAgO4Ase_uZ4GwAIB0gIkNzZhNTFlMzItZWQ2Yy00YzJiLTkzZmQtYWY5ZDViZmU5MDk42AIE4AIB&sid=f385353f245ebfdc8c67cee8d29f7245&atlas_src=sr_iw_btn;dest_id=-373144;dest_type=city;dist=0;group_adults=2;group_children=0;no_rooms=1;room1=A%2CA;sb_price_type=total;type=total;ucfs=1&#tab-reviews" target="_blank" title="Comenarios booking">Más comentarios</a>
+            </button>
           </div>
         </div>
       </div>
@@ -246,6 +250,11 @@
                 Voluptatibus autem vero eum, laborum vitae at deleniti magnam unde eligendi com</p>
             </div>
           </div>
+          <div class="d-flex justify-content-center align-items-end mt-5">
+            <button type="button" class="btn__style-2" href="#" role="button">
+              <a class="btn__link" href="https://www.booking.com/hotel/es/the-boathouse.es.html?aid=397594&label=gog235jc-1DCAEoggI46AdIClgDaEaIAQGYAQq4ARfIAQzYAQPoAQH4AQKIAgGoAgO4Ase_uZ4GwAIB0gIkNzZhNTFlMzItZWQ2Yy00YzJiLTkzZmQtYWY5ZDViZmU5MDk42AIE4AIB&sid=f385353f245ebfdc8c67cee8d29f7245&atlas_src=sr_iw_btn&dest_id=-373144&dest_type=city&dist=0&group_adults=2&group_children=0&no_rooms=1&room1=A%2CA&sb_price_type=total&type=total&ucfs=1&activeTab=photosGallery" target="_blank" title="link a imagenes booking"> Más imágenes</a>
+            </button>
+          </div>
         </div>
       </div>
     </section>
@@ -309,14 +318,26 @@
               <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn__style-2">Submit</button>
           </form>
           </div>
         </div>
       </div>
     </section>
   </main>
-  
+  <!-------- FOOTER -------->
+  <footer>
+    <div class="container-fluid personal__bgcolor-3 border-top p-3">
+      <div class="container d-flex justify-content-between">
+        <h3>
+          Ir a Booking.com
+        </h3>
+        <h5>
+          algo mas
+        </h5>
+      </div>
+    </div>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
