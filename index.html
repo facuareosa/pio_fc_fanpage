@@ -12,7 +12,7 @@
 
 <body>
   <header>
-    <div class="container-fluid personal__bgcolor-1 d-flex">
+    <div class="fixed-top container-fluid personal__bgcolor-1 d-flex">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark">
           <div class="container-fluid">
@@ -25,10 +25,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link" href="#descripcion">Descrpicion</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link" href="#habitaciones">Habitaciones</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#ubicacion">Ubicación</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contacto">Contacto</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -52,17 +58,21 @@
     <div class="main__banner banner">
       <img src="./assets/benalmadena (2).jpg" alt="puerto marina benalmadena" class="d-block w-100 banner__img">
     </div>
-    <!----- SECTION DESCRIPCION ----->
-    <section class="container-fluid mt-5">
+
+    <!-------- SECTION DESCRIPCION -------->
+
+    <section  id="descripcion" class="container-fluid">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="text-center col-12">
+          <div class="text-center col-12 mt-5">
             <h2>Descrpicion</h2>
           </div>
 
           <div class="row align-items-center col-12">
-            <!-- DESCRIPCION DEL HOSPEDAJE -->
-            <div class="col-12 col-lg-6 gy-5">
+            
+            <!-------- DESCRIPCION DEL HOSPEDAJE -------->
+
+            <div class="col-12 col-lg-6">
               <p class="color3">Lorem ipsum dolor sit, lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Repudiandae iste minima dolorum sunt accusamus fugit quae quam deserunt quasi libero tenetur eum
                 temporibus, similique cumque odit, quisquam eos provident veritatis?
@@ -72,8 +82,9 @@
                 Voluptatibus autem vero eum, laborum vitae at deleniti magnam unde eligendi com</p>
             </div>
 
-            <!-- CARRUSEL COMENTARIOS -->
-            <div class="col-12 col-lg-6 gy-5">
+            <!-------- CARRUSEL COMENTARIOS -------->
+
+            <div class="col-12 col-lg-6">
               <div id="carouselExampleControls-1" class="carousel slide mx-auto my-auto" data-bs-ride="carousel">
                 <div class="carousel-inner d-flex align-items-center carousel__inner-comentarios">
                   <div class="carousel-item active">
@@ -133,23 +144,28 @@
             </div>
           </div>
 
-          <!-- LINK BOOKING -->
+          <!-------- LINK BOOKING -------->
+
           <div class="d-flex justify-content-center align-items-end">
-            <a class="btn btn-primary" href="#" role="button">Ir a Booking</a>
+            <a class="btn btn-primary" href="#" role="button">Más comentarios</a>
           </div>
         </div>
       </div>
     </section>
-    <!-- SECTION HABITACIONES Y ESPACIOS COMUNES -->
-    <section class="container-fluid mt-5 personal__bgcolor-1 personal__textcolor-1">
+
+    <!-------- SECTION HABITACIONES Y ESPACIOS COMUNES -------->
+
+    <section id="habitaciones" class="container-fluid mt-5 personal__bgcolor-1 personal__textcolor-1">
       <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center py-5">
           <div class="text-center col-12">
             <h2>Habitaciones y espacios comunes</h2>
           </div>
           <div class="row align-items-center col-12">
-            <!-- CARRUSEL IMG HABITACIONES Y ESPACIOS COMUNES -->
-            <div class="col-12 col-lg-6 gy-5">
+
+            <!-------- CARRUSEL IMG HABITACIONES Y ESPACIOS COMUNES -------->
+
+            <div class="col-12 col-lg-6">
               <div id="carouselExampleControls-2" class="carousel slide mx-auto my-auto" data-bs-ride="carousel">
                 <div class="carousel-inner d-flex align-items-center carousel__inner-habitaciones">
                   <div class="carousel-item active">
@@ -203,8 +219,6 @@
                   <div class="carousel-item">
                     <img src="./assets/theboathouse (20).jpg" class="d-block w-100 img-fluid" alt="...">
                   </div>
-
-
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-2"
                   data-bs-slide="prev">
@@ -218,9 +232,10 @@
                 </button>
               </div>
             </div>
-            <!-- DESCRIPCION HABITACIONES Y ESPACIOS COMUNES -->
-            <div class="col-12 col-lg-6 gy-5">
 
+            <!-------- DESCRIPCION HABITACIONES Y ESPACIOS COMUNES -------->
+
+            <div class="col-12 col-lg-6">
               <p class="">Lorem ipsum dolor sit, lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Repudiandae iste minima dolorum sunt accusamus fugit quae quam deserunt quasi libero tenetur eum
                 temporibus, similique cumque odit, quisquam eos provident veritatis?
@@ -229,22 +244,79 @@
                 error enim nisi dignissimos, vitae voluptate reiciendis ullam nihil nam praesentium quo. Porro, non?
                 Veritatis, optio? amet consectetur adipisicing elit. Animi autem neque consequatur quae iste a veniam?
                 Voluptatibus autem vero eum, laborum vitae at deleniti magnam unde eligendi com</p>
-
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- SECTION UBICACION -->
-    <section class="container-fluid mt-5 personal__bgcolor-1 personal__textcolor-1">
+
+    <!-------- SECTION UBICACION -------->
+
+    <section id="ubicacion" class="container-fluid mt-5">
       <div class="container">
-        <!-- MAPA -->
-        <div class="map-container">
-          <iframe src="https://maps.google.com/maps?q=36.5952376,-4.5122615&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" allowfullscreen=""></iframe>
+        <div class="row justify-content-center py-5">
+          <div class="text-center col-12">
+            <h2>Ubicación</h2>
+          </div>
+          <div class="row align-items-center col-12">
+
+            <!-------- DESCRIPCION UBICACION -------->
+
+            <div class="col-12 col-lg-6">
+              <p class="">Lorem ipsum dolor sit, lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae iste minima dolorum sunt accusamus fugit quae quam deserunt quasi libero tenetur eum
+                temporibus, similique cumque odit, quisquam eos provident veritatis?
+                Deserunt nemo eveniet expedita laudantium quae quaerat consequatur ratione sed nobis quidem minus
+                eius,
+                error enim nisi dignissimos, vitae voluptate reiciendis ullam nihil nam praesentium quo. Porro, non?
+                Veritatis, optio? amet consectetur adipisicing elit. Animi autem neque consequatur quae iste a veniam?
+                Voluptatibus autem vero eum, laborum vitae at deleniti magnam unde eligendi com</p>
+            </div>
+
+            <!-------- MAPA -------->
+
+            <div class="map-container col-12 col-lg-6 d-flex align-items-center">
+              <iframe src="https://maps.google.com/maps?q=36.595236, -4.511999&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                width="100%" height="80%" allowfullscreen="" class="mx-auto my-auto"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------- SECTION contacto -------->
+
+    <section id="contacto" class="container-fluid mt-5 personal__bgcolor-1 personal__textcolor-1">
+      <div class="container">
+        <div class="row justify-content-center py-5">
+          <div class="text-center col-12">
+            <h2>Contacto</h2>
+          </div>
+
+          <!-------- FORMULARIO DE CONTACTO -------->
+
+          <div class="col-12 col-lg-6">
+            <form>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre" required>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Dirección de correo electronico</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail" required>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          </div>
         </div>
       </div>
     </section>
   </main>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
