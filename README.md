@@ -15,7 +15,7 @@
 ------------
 <h2 align="center">Screenshot Pagina Principal</h2>
 
-![screenshot pagina principal](https://github.com/facuareosa/the_boathouse/blob/main/assets/screenshot.jpg?raw=true)
+![screenshot pagina principal](https://github.com/facuareosa/the_boathouse/blob/main/assets/img/screenshot.jpg?raw=true)
 <br>
 
 <h2 align="center">Descripción</h2>
