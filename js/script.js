@@ -17,3 +17,13 @@ document.addEventListener("click", function(event) {
       navbarCollapse.classList.remove("show");
     }
   });
+
+
+  // REINICIO FORMULARIO
+  const form = document.getElementById("form");
+  
+  form.addEventListener("submit", function(event) {
+    event.preventDefault();
+    form.reset();
+  });
+  
